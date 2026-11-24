@@ -1,6 +1,11 @@
-const cars = { make: "Toyota", model: "Corolla", year: 2020 };
-// object destructuring
-const {make, model} = cars;
+function calculateArea(width, height = width) {
+    return width + height;
+}
 
-console.log(`The make is ${make}`);
-console.log(`The model is ${model}`);
+// Rectangle
+console.log("This is Rectangle");
+console.log(calculateArea(10, 5));
+
+// Square (height defaults to width)
+console.log("This is Square");
+console.log(calculateArea(6));
