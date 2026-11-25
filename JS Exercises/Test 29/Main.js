@@ -46,3 +46,6 @@ fetchData()
 
 // Other code runs while waiting
 console.log("Other code is running...");
+
+
+
