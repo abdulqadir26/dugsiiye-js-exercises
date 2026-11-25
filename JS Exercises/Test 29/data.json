@@ -1,0 +1,19 @@
+{
+    "id": 1,
+    "name": "Abdulkadir Ahmed",
+    "city": "Mogadishu",
+    "orders": [
+        {
+            "id": 3411,
+            "product": "Soap",
+            "quantity": 20,
+            "price": 39
+        },
+        {
+            "id": 2329,
+            "product": "Laptop",
+            "quantity": 1,
+            "price": 320
+        }
+    ]
+}
